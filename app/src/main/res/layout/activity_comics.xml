@@ -4,6 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background__1_">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -44,11 +47,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginTop="60dp">
+            android:layout_marginTop="48dp">
 
             <Button
                 android:id="@+id/a"
-                android:layout_width="350dp"
+                android:layout_width="285dp"
                 android:layout_height="wrap_content"
                 android:text="A"
                 android:layout_marginTop="30dp"
@@ -60,7 +63,7 @@
 
             <Button
                 android:id="@+id/b"
-                android:layout_width="350dp"
+                android:layout_width="285dp"
                 android:layout_height="wrap_content"
                 android:text="B"
                 android:textColor="@color/white"
@@ -72,7 +75,7 @@
 
             <Button
                 android:id="@+id/c"
-                android:layout_width="350dp"
+                android:layout_width="285dp"
                 android:layout_height="wrap_content"
                 android:text="C"
                 android:textColor="@color/white"
@@ -90,11 +93,12 @@
                 android:textSize="30dp"
                 android:layout_marginTop="30dp"
                 android:onClick="Buclick"
-                android:layout_width="350dp"
+                android:layout_width="285dp"
                 android:layout_gravity="center_horizontal"
                 android:background="@drawable/button_trans"/>
         </LinearLayout>
 
 
     </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
