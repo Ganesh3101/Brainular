@@ -15,6 +15,7 @@
         android:layout_height="wrap_content"
         android:text="Select the number of questions:"
         android:textSize="30dp"
+        android:layout_marginLeft="20dp"
         android:textColor="@color/black"
         android:layout_marginTop="30dp"/>
 
@@ -22,6 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+        android:layout_marginLeft="35dp"
         android:id="@+id/rg">
     <RadioButton
         android:id="@+id/c10"
@@ -49,20 +51,22 @@
         android:layout_height="wrap_content"
         android:text="Select the level of difficulty:"
         android:textSize="30dp"
+        android:layout_marginLeft="20dp"
         android:textColor="@color/black"
-        android:layout_marginTop="60dp"/>
+        android:layout_marginTop="45dp"/>
 
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+        android:layout_marginLeft="35dp"
         android:id="@+id/rgb">
     <RadioButton
         android:id="@+id/ce"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="EASY"
-        android:textSize="30dp"
+        android:textSize="25dp"
         android:textColor="@color/black"
         android:layout_marginTop="30dp"/>
 
@@ -71,7 +75,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="MEDIUM"
-        android:textSize="30dp"
+        android:textSize="25dp"
         android:textColor="@color/black"
         android:layout_marginTop="30dp"/>
 
@@ -80,7 +84,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="HARD"
-        android:textSize="30dp"
+        android:textSize="25dp"
         android:textColor="@color/black"
         android:layout_marginTop="30dp"/>
     </RadioGroup>
@@ -90,9 +94,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Next Page"
-        android:textSize="30dp"
+        android:textSize="25dp"
         android:textColor="@color/black"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="10dp"
         android:background="@color/white"
         android:layout_gravity="center_horizontal"/>
 </LinearLayout>
