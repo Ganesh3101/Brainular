@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "438482922839",
+    "project_id": "brainular-594f0",
+    "storage_bucket": "brainular-594f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:438482922839:android:06979891e178fa3570a212",
+        "android_client_info": {
+          "package_name": "com.example.brainular"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "438482922839-4bqr5074am2nb9echfn12s38o3dcahkk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.brainular",
+            "certificate_hash": "5d2a920bf639a3ee1277e5c2fcf8ff398adbac5c"
+          }
+        },
+        {
+          "client_id": "438482922839-7p4ja918fpqtfp27f34s5jv2ngmrs3ic.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAfEiiOumh8VlZ2ULHizUie2MZ_KI6YOU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "438482922839-7p4ja918fpqtfp27f34s5jv2ngmrs3ic.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
